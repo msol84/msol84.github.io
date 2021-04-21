@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primer JAVASCript</title>
+    
+</head>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+
+<p>hola es miercoles</p>
+<p>hola es jueves</p>
+<h1 id="cab">esto es una CABECERA </h1>
+<script>
+    var texto= document.getElementsByTagName("p"),
+        cabecera=document.getElementById("cab").innerHTML;
+    document.write(cabecera);
+    window.alert(cabecera);
+    console.log(cabecera);
+   // <h2> esto es h2 </h2> no puedo poner codigo HTML
+   document.getElementById("cab").style.background= "red";
+   document.write(texto[2].innerHTML);
+
+</script>
+</body>
+</html> 
