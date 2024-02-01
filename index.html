@@ -1,33 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mi primer JAVASCript</title>
-    
-    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <h1>aqui explico, antes de details,hola mundo</h1>
+    <details> 
+        <p>comprobar que esto dará error</p>
+        <summary>esto es sumary</summary>
+            <p>texto fuera de summary y dentro de details hola asdqe dee </p>Some details</summary> 
+        <p>More info about the details.</p> 
+  </details>
+  <details> 
+    <summary>prefijos css</summary> 
+    <p>
+        <pre>
+            Los principales navegadores usan los siguientes prefijos:
 
-<h2>My First JavaScript</h2>
+                      -webkit- (Chrome, Safari, nuevas versiones de Opera, casi todos los navegadores iOS (incluyendo Firefox for iOS); basicamente, cualquier navegador basado en WebKit)
+        -moz- (Firefox)
+        -o- (Versiónes antiguas, pre-Webkit, de Opera)
+        -ms- (Internet Explorer y Microsoft Edge)
+        </pre>
+        <pre>
+            tipos de varibles
+                strings
+        </pre>
+        <p>Utilice los siguientes colores de pintura para la nueva casa:</p> 
+ 
+        <dl>  <!-- indica que es una Lista de Definicion-->
+        <dt>Denim (acabado semibrillante)</dt> <!--Termino de la Deficion-->
+                <dd>Techo</dd> <!-- Dato de Definicion-->
+       <dt>Denim (acabado cáscara de huevo)</dt>
+       <dt>Evening Sky (acabado cáscara de huevo)</dt>
+               <dd>En capas en las paredes</dd>
+ </dl>
+</p> 
+</details>
+    <a href="https://es.wikipedia.org/wiki/HTML" target="marco-flotante">HTML</a>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-<p id="demo"></p>
-
-
-<p>hola es miercoles</p>
-<p>hola es jueves</p>
-<h1 id="cab">esto es una CABECERA </h1>
-<script>
-    var texto= document.getElementsByTagName("p"),
-        cabecera=document.getElementById("cab").innerHTML;
-    document.write(cabecera);
-    window.alert(cabecera);
-    console.log(cabecera);
-   // <h2> esto es h2 </h2> no puedo poner codigo HTML
-   document.getElementById("cab").style.background= "red";
-   document.write(texto[2].innerHTML);
-
-</script>
+<iframe src="https://es.wikipedia.org/wiki/HTML" allowfullscreen></iframe>
+<iframe src="doc/keyboard-shortcuts-windows.pdf" frameborder="5px solid red"></iframe>
+<iframe style="width:560; height:315"  src="https://www.youtube.com/embed/j4mOm1qic7k?si=igucVlGU8M1AX7Aa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe name="marco-flotante"></iframe>
 </body>
-</html> 
+</html>
